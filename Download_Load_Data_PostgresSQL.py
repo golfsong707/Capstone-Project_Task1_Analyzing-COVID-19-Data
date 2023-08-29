@@ -25,6 +25,6 @@ Covid19 = pd.read_csv(csv_raw)
 
 from sqlalchemy import create_engine
 
-engine = create_engine('postgresql://postgres:Mysong123@localhost:5432/covid_19_data')
+engine = create_engine('postgresql://postgres:Mypassword@localhost:5432/covid_19_data')
 
 Covid19.to_sql('covid_19_data', con=engine, schema='public', if_exists='replace')
