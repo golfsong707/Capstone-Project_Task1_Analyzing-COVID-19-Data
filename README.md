@@ -60,15 +60,42 @@ Sure, here's the information presented in a tabular format:
 | --- | --- | --- |
 | ```SELECT province, country, SUM(confirmed) AS confirmed, SUM(deaths) AS deaths, SUM(recovered) AS recovered FROM covid_19_data GROUP BY province, country; ``` | | |
 
-| **2. Query Explanation** | | |
+| **Query Explanation** | | |
 | --- | --- | --- |
 | The provided SQL query calculates aggregated COVID-19 statistics by province and country from the `covid_19_data` table. It sums up the confirmed, deaths, and recovered cases for each unique combination of province and country. The result will show the combined statistics for each province-country pair. | | |
 | **See Query_Output Screenshot** | | |
+| **1. SQL Query** | | |
 | --- | --- | --- |
+| ```SELECT province, country, SUM(confirmed) AS confirmed, SUM(deaths) AS deaths, SUM(recovered) AS recovered FROM covid_19_data GROUP BY province, country; ``` | | |
 
+| **Query Explanation** | | |
+| --- | --- | --- |
+| The provided SQL query calculates aggregated COVID-19 statistics by province and country from the `covid_19_data` table. It sums up the confirmed, deaths, and recovered cases for each unique combination of province and country. The result will show the combined statistics for each province-country pair. | | |
+| **See Query_Output Screenshot** | | |
+| **1. SQL Query** | | |
+| --- | --- | --- |
+| ```SELECT province, country, SUM(confirmed) AS confirmed, SUM(deaths) AS deaths, SUM(recovered) AS recovered FROM covid_19_data GROUP BY province, country; ``` | | |
 
+| **Query Explanation** | | |
+| --- | --- | --- |
+| The provided SQL query calculates aggregated COVID-19 statistics by province and country from the `covid_19_data` table. It sums up the confirmed, deaths, and recovered cases for each unique combination of province and country. The result will show the combined statistics for each province-country pair. | | |
+| **See Query_Output Screenshot** | | |
+| **1. SQL Query** | | |
+| --- | --- | --- |
+| ```SELECT province, country, SUM(confirmed) AS confirmed, SUM(deaths) AS deaths, SUM(recovered) AS recovered FROM covid_19_data GROUP BY province, country; ``` | | |
 
+| **Query Explanation** | | |
+| --- | --- | --- |
+| The provided SQL query calculates aggregated COVID-19 statistics by province and country from the `covid_19_data` table. It sums up the confirmed, deaths, and recovered cases for each unique combination of province and country. The result will show the combined statistics for each province-country pair. | | |
+| **See Query_Output Screenshot** | | |
+| **1. SQL Query** | | |
+| --- | --- | --- |
+| ```SELECT province, country, SUM(confirmed) AS confirmed, SUM(deaths) AS deaths, SUM(recovered) AS recovered FROM covid_19_data GROUP BY province, country; ``` | | |
 
+| **Query Explanation** | | |
+| --- | --- | --- |
+| The provided SQL query calculates aggregated COVID-19 statistics by province and country from the `covid_19_data` table. It sums up the confirmed, deaths, and recovered cases for each unique combination of province and country. The result will show the combined statistics for each province-country pair. | | |
+| **See Query_Output Screenshot** | | |
 
 
 ## Conclusion
