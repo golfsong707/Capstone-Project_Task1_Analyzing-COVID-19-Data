@@ -40,9 +40,8 @@ It is essential to utilize PostgreSQL as the chosen database tool.
 2. **Data Extraction:** Raw data, given in CSV file extension. The 'Covid_19_data.csv' file was read using the Pandas library in Python and stored in a Pandas DataFrame named 'covid_19_dataset'.
 3. **Modification:**
    - Data type of 'ObservationDate' was changed to 'DATE' within the DataFrame.
-   - Data type of 'LastUpdate' changed to 'datetime' data type.
 4. **Data Loading:**
-   - Data was loaded using Python with the help of Psycopg2 and SQLAlchemy libraries to interact with PostgreSQL databases.
+   - Data was loaded using Python with the help of SQLAlchemy libraries to interact with PostgreSQL databases.
    - The DataFrame was written to a table named 'covid_19_data' using the 'to_sql' function.
 5. **Running SQL Queries with PostgreSQL PG4 Admin:**
    - SQL queries were executed with the PostgreSQL PG4 Admin query tool.
