@@ -14,7 +14,19 @@
 The COVID-19 pandemic has had far-reaching consequences, causing significant loss of lives and disruptions to societies. This project delves into the analysis of sample data pertaining to COVID-19 cases recorded between January 2019 and December 2020. The dataset is provided in CSV format.
 
 ## Data Summary
-_TODO: Provide a summary of the data used in the project._
+
+| Column Name     | Description                                                      | Data Type      |
+|-----------------|------------------------------------------------------------------|----------------|
+| serialnumber    | A unique serial number for each record.                          | serial         |
+| observationdate | The date of observation in the format varchar(15).              | varchar(15)    |
+| province        | The province where the observation was made.                    | varchar(20)    |
+| country         | The country where the observation was made.                     | varchar(20)    |
+| last update     | The date and time of the last update for the record.            | varchar(20)    |
+| confirmed       | The number of confirmed COVID-19 cases.                         | int            |
+| deaths          | The number of deaths due to COVID-19.                           | int            |
+| recovered       | The number of recovered COVID-19 cases.                         | int            |
+
+This table provides a clear overview of the columns present in the `covid_data` table along with their descriptions and corresponding data types.
 
 ## Instructions
 It is essential to utilize PostgreSQL as the chosen database tool.
@@ -33,8 +45,8 @@ It is essential to utilize PostgreSQL as the chosen database tool.
 4. **Data Loading:**
    - Data was loaded using Python with the help of Psycopg2 and SQLAlchemy libraries to interact with PostgreSQL databases.
    - The DataFrame was written to a table named 'covid_19_data' using the 'to_sql' function.
-5. **Running SQL Queries with Jupyter Notebook:**
-   - SQL queries were executed within Jupyter Notebook using the 'ipython-sql' and 'psycopg2' libraries.
+5. **Running SQL Queries with PostgreSQL PG4 Admin:**
+   - SQL queries were executed with the PostgreSQL PG4 Admin query tool.
 
 ## Requirements
 - Python 3.x
@@ -43,7 +55,7 @@ It is essential to utilize PostgreSQL as the chosen database tool.
 - PostgreSQL
 
 ## SQL Queries Result Explanation
-_TODO: Provide explanations for the results of SQL queries used in the project._
+
 
 ## Conclusion
 In conclusion, the COVID-19 dataset was provided, extracted using the Pandas library, and stored in a DataFrame. A PostgreSQL database was created to serve as a centralized repository for easy access and analysis.
