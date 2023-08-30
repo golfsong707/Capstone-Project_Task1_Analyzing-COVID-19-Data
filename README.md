@@ -52,6 +52,8 @@ It is essential to utilize PostgreSQL as the chosen database tool.
 - SQLAlchemy
 - PostgreSQL
 
+## SQL Queries result Explanation
+
 | **Query** | **Query Explanation** | **Screenshot** |
 | --- | --- | --- |
 | **A.** |
