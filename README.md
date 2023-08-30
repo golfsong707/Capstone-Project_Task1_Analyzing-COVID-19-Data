@@ -26,7 +26,6 @@ The COVID-19 pandemic has had far-reaching consequences, causing significant los
 | deaths          | The number of deaths due to COVID-19.                           | int            |
 | recovered       | The number of recovered COVID-19 cases.                         | int            |
 
-This table provides a clear overview of the columns present in the `covid_data` table along with their descriptions and corresponding data types.
 
 ## Instructions
 It is essential to utilize PostgreSQL as the chosen database tool.
@@ -55,6 +54,19 @@ It is essential to utilize PostgreSQL as the chosen database tool.
 - PostgreSQL
 
 ## SQL Queries Result Explanation
+Sure, here's the information presented in a tabular format:
+
+| **1. SQL Query** | | |
+| --- | --- | --- |
+| ```sql SELECT province, country, SUM(confirmed) AS confirmed, SUM(deaths) AS deaths, SUM(recovered) AS recovered FROM covid_19_data GROUP BY province, country; ``` | | |
+
+| **2. Query Explanation** | | |
+| --- | --- | --- |
+| The provided SQL query calculates aggregated COVID-19 statistics by province and country from the `covid_19_data` table. It sums up the confirmed, deaths, and recovered cases for each unique combination of province and country. The result will show the combined statistics for each province-country pair. | | |
+
+
+
+
 
 
 ## Conclusion
