@@ -1,5 +1,7 @@
 # ANALYZING COVID-19 DATA
 
+![image](https://github.com/golfsong707/Capstone-Project_Task1_Analyzing-COVID-19-Data/assets/131208083/f4520c61-246b-4f7a-8665-bf82c11544b2)
+
 ## Table of Contents
 - [Introduction/Project Overview](#introductionproject-overview)
 - [Data Summary](#data-summary)
@@ -9,9 +11,6 @@
 - [SQL Queries Result Explanation](#sql-queries-result-explanation)
 - [Conclusion](#conclusion)
 - [Contribution and Feedback](#contribution-and-feedback)
-
-![image](https://github.com/golfsong707/Capstone-Project_Task1_Analyzing-COVID-19-Data/assets/131208083/f4520c61-246b-4f7a-8665-bf82c11544b2)
-
 
 ## Introduction/Project Overview
 The COVID-19 pandemic has had far-reaching consequences, causing significant loss of lives and disruptions to societies. This project delves into the analysis of sample data pertaining to COVID-19 cases recorded between January 2019 and December 2020. The dataset is provided in CSV format.
