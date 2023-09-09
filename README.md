@@ -2,6 +2,8 @@
 
 ![image](https://github.com/golfsong707/Capstone-Project_Task1_Analyzing-COVID-19-Data/assets/131208083/f4520c61-246b-4f7a-8665-bf82c11544b2)
 
+
+
 ## Table of Contents
 - [Introduction/Project Overview](#introductionproject-overview)
 - [Data Summary](#data-summary)
